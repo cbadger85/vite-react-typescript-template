@@ -1,13 +1,12 @@
-
 {
-    "compilerOptions": {
-      "composite": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "resolveJsonModule": true,
-      "downlevelIteration": true
-    },
-    "include": ["vite.config.js", "package.json"],
-    "references": [{"path": "./tsconfig.node.json"}]
-  }
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true
+  },
+  "include": ["vite.config.js"],
+  "references": [{ "path": "./tsconfig.json" }]
+}

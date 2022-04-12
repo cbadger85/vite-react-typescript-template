@@ -19,7 +19,8 @@
       "~/*": ["./src/*"]
     },
     "baseUrl": "./src",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": ["./src"]
+  "include": ["./src", "custom.d.ts", "global.d.ts", "./setupTests.ts"]
 }

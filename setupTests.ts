@@ -1,4 +1,3 @@
-/// <reference path="./types/global.d.ts" />
 import '@testing-library/jest-dom';
 
 beforeAll(() => {

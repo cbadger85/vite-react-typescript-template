@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       port: Number(env.SERVER_PORT),
-      open: Boolean(env.SERVER_OPEN_BROWSER),
+      open: env.SERVER_OPEN_BROWSER === 'true',
     },
     build: {
       outDir: 'build',
@@ -38,7 +38,7 @@ export default defineConfig(({ mode }) => {
       globals: true,
       environment: 'jsdom',
       reporters: 'verbose',
-      setupFiles: ['./src/setupTests.ts'],
+      setupFiles: ['./setupTests.ts'],
     },
   };
 });

@@ -31,7 +31,7 @@ module.exports = {
         devDependencies: [
           '**/*.test.{ts,tsx}',
           '**/*.spec.{ts,tsx}',
-          'src/setupTests.ts',
+          'setupTests.ts',
           'vite.config.ts',
         ],
       },
