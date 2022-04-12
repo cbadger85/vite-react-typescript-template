@@ -1,15 +1,16 @@
 {
-  "name": "ssg",
-  "version": "1.0.0",
-  "description": "",
+  "name": "vite-starter",
+  "version": "0.0.1",
+  "description": "A starter setup for Vite, React and Typescript",
   "main": "index.js",
   "scripts": {
+    "build": "tsc && vite build",
     "dev": "vite",
     "dev:clean": "npm run dev -- --force",
-    "build": "tsc && vite build",
+    "lint": "eslint \"./src/**/*.{ts,tsx}\"",
     "serve": "vite preview --port 3000",
     "test": "vitest --mode test",
-    "test:coverage": "vitest run"
+    "test:coverage": "vitest run --mode test --coverage"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
     "@typescript-eslint/parser": "^5.19.0",
     "@vitejs/plugin-react": "^1.3.0",
     "@vitest/ui": "^0.9.3",
+    "c8": "^7.11.0",
     "eslint": "^8.13.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -43,6 +45,7 @@
     "typescript": "^4.6.3",
     "vite": "^2.9.1",
     "vite-plugin-checker": "^0.4.5",
+    "vite-tsconfig-paths": "^3.4.1",
     "vitest": "^0.9.3"
   }
 }

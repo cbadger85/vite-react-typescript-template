@@ -27,7 +27,14 @@ module.exports = {
     ],
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['**/*.test.ts', '**/*.spec.ts', '**/*.test.tsx', '**/*.spec.tsx'] },
+      {
+        devDependencies: [
+          '**/*.test.{ts,tsx}',
+          '**/*.spec.{ts,tsx}',
+          'src/setupTests.ts',
+          'vite.config.ts',
+        ],
+      },
     ],
     'import/prefer-default-export': 'off',
     'react/require-default-props': 'off',
