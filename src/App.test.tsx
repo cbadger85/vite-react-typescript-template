@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import App from 'App';
 
-describe('Smoke Test', () => {
+describe('<App />', () => {
   it('should render the app', () => {
     render(<App />);
 

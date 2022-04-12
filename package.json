@@ -1,5 +1,6 @@
 {
   "name": "vite-starter",
+  "author": "Charles Badger",
   "version": "0.0.1",
   "description": "A starter setup for Vite, React and Typescript",
   "main": "index.js",
@@ -12,8 +13,6 @@
     "test": "vitest --mode test",
     "test:coverage": "vitest run --mode test --coverage"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "^18.0.0",
