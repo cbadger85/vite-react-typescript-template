@@ -1,4 +1,4 @@
-# Vite React and Typescript Template
+# Vite, React and Typescript Template
 
 ## Install
 
