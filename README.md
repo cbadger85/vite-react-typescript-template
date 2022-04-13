@@ -1,5 +1,24 @@
 # Vite React and Typescript Template
 
+## Install
+
+Run the following script to install dependencies:
+
+```sh
+npm i
+```
+
+Then, run:
+
+```sh
+cp .env.sample .env
+```
+
+> The .env file contains the following enviroment variables:
+>
+> - `SERVER_OPEN_BROWSER`: If `true`, will open the browser when a `dev` script is ran.
+> - `SERVER_PORT`: The port the dev server should run on.
+
 ## Packages
 
 ### UI Library
@@ -33,7 +52,7 @@
 
 ### `build`
 
-```bash
+```sh
 npm run build
 ```
 
@@ -41,7 +60,7 @@ Builds the React App into static files.
 
 ### `dev`
 
-```bash
+```sh
 npm run dev
 ```
 
@@ -49,7 +68,7 @@ Runs serves the react app through the dev server.
 
 ### `dev:clean`
 
-```bash
+```sh
 npm run dev:clean
 ```
 
@@ -57,7 +76,7 @@ Clears the optimizer's cache and runs serves the react app through the dev serve
 
 ### `lint`
 
-```bash
+```sh
 npm run lint
 ```
 
@@ -65,7 +84,7 @@ Runs the codebase through the linter.
 
 ### `lint:fix`
 
-```bash
+```sh
 npm run lint
 ```
 
@@ -73,7 +92,7 @@ Runs the codebase through the linter and attempts to fix any problems.
 
 ### `serve`
 
-```bash
+```sh
 npm run serve
 ```
 
@@ -81,7 +100,7 @@ Locally serves the production assets from the build directory.
 
 ### `start`
 
-```bash
+```sh
 npm start
 ```
 
@@ -89,7 +108,7 @@ Alias for `npm run dev`.
 
 ### `test`
 
-```bash
+```sh
 npm test
 ```
 
@@ -97,7 +116,7 @@ Runs the test suite. if `CI=true`, then the test suite will not run in interacti
 
 ### `test:coverage`
 
-```bash
+```sh
 npm test:coverage
 ```
 
@@ -105,7 +124,7 @@ Runs the test suite and checks for code coverage.
 
 ### `typecheck`
 
-```bash
+```sh
 npm typecheck
 ```
 
